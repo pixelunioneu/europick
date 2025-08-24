@@ -50,7 +50,7 @@ function renderPrivacyPackInVirtualDOM() {
       height: 1500px !important;
       margin: 0 !important;
       padding: 16px !important;
-      background-color: #121212 !important;
+      background-color: #fff !important;
       font-family: monospace;
     `;
   }

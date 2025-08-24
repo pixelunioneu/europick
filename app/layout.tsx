@@ -7,21 +7,21 @@ const jetBrainsMono = localFont({
 });
 
 export const metadata: Metadata = {
-    title: "PrivacyPack",
+    title: "EuroPick",
     description:
-        "Pick the mainstream apps you used before, show the privacy-respecting tools you have switched to, and share your privacy wins!",
+        "Pick the mainstream apps you used before, show the european tools you have switched to!",
     openGraph: {
-        title: "PrivacyPack",
+        title: "EuroPick",
         description:
-            "Pick the mainstream apps you used before, show the privacy-respecting tools you have switched to, and share your privacy wins!",
+            "Pick the mainstream apps you used before, show the european tools you have switched to!",
         url: "https://europick.eu",
-        siteName: "PrivacyPack",
+        siteName: "EuroPick",
         images: [
             {
                 url: "https://europick.eu/og-image.png",
                 width: 1200,
                 height: 630,
-                alt: "PrivacyPack Preview",
+                alt: "EuroPick Preview",
             },
         ],
         locale: "en_US",
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "PrivacyPack",
+        title: "EuroPick",
         description:
-            "Pick the mainstream apps you used before, show the privacy-respecting tools you have switched to, and share your privacy wins!",
+            "Pick the mainstream apps you used before, show the european tools you have switched to!",
         images: ["https://europick.eu/og-image.png"],
     },
 };

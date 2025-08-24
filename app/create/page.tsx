@@ -99,9 +99,9 @@ export default function App() {
                     </Link>
                     <div className="flex flex-row items-center gap-8">
                         <a
-                            href="https://github.com/ente-io/privacypack?tab=readme-ov-file#add-a-missing-app"
+                            href="https://github.com/pixelunioneu/europick?tab=readme-ov-file#add-a-missing-app"
                             target="_blank"
-                            className="text-sm text-[#868686] underline decoration-[#525252] underline-offset-4 hover:text-white hover:decoration-white"
+                            className="text-sm text-[#868686] underline decoration-[#525252] underline-offset-4 hover:text-black hover:decoration-black"
                         >
                             Add a missing app
                         </a>
@@ -147,10 +147,10 @@ export default function App() {
                                 key={item.category}
                                 className="flex flex-col gap-2"
                             >
-                                <div className="mb-1 text-[#aeaeae]">
+                                <div className="mb-1 text-[#000000]">
                                     {item.category}
                                 </div>
-                                <div className="xs:p-8 flex h-full w-full flex-row items-center justify-between rounded-3xl bg-[#fff]/2 p-3 sm:w-auto sm:justify-normal sm:gap-3 md:rounded-4xl">
+                                <div className="xs:p-8 flex h-full w-full flex-row items-center justify-between rounded-3xl bg-[#000]/2 p-3 sm:w-auto sm:justify-normal sm:gap-3 md:rounded-4xl">
                                     <DropdownMenu
                                         open={openKey === mainKey}
                                         onOpenChange={(next) =>
@@ -162,7 +162,7 @@ export default function App() {
                                                 {...getTouchTriggerHandlers(
                                                     mainKey,
                                                 )}
-                                                className="flex h-full cursor-pointer touch-pan-y flex-col items-center rounded-2xl bg-[#2B2B2B] p-4 text-[#aeaeae] transition outline-none hover:bg-[#ededed] hover:text-black focus:bg-[#ededed] focus:text-black data-[state=open]:bg-[#ededed] data-[state=open]:text-black md:rounded-3xl"
+                                                className="flex h-full cursor-pointer touch-pan-y flex-col items-center rounded-2xl bg-[#eeeeee] p-4 text-[#000000] transition outline-none hover:bg-[#ededed] hover:text-black focus:bg-[#ededed] focus:text-black data-[state=open]:bg-[#ededed] data-[state=open]:text-black md:rounded-3xl"
                                             >
                                                 <div className="h-18 w-18 lg:h-24 lg:w-24 xl:h-28 xl:w-28 2xl:h-40 2xl:w-40">
                                                     <Image
@@ -230,7 +230,7 @@ export default function App() {
                                         </DropdownMenuContent>
                                     </DropdownMenu>
 
-                                    <ArrowRight className="text-[#aeaeae] transition" />
+                                    <ArrowRight className="text-[#000000] transition" />
 
                                     <DropdownMenu
                                         open={openKey === altKey}
@@ -243,12 +243,12 @@ export default function App() {
                                                 {...getTouchTriggerHandlers(
                                                     altKey,
                                                 )}
-                                                className="flex h-full cursor-pointer touch-pan-y flex-col items-center rounded-2xl bg-[#2B2B2B] p-4 text-[#aeaeae] transition outline-none hover:bg-[#ededed] hover:text-black focus:bg-[#ededed] focus:text-black data-[state=open]:bg-[#ededed] data-[state=open]:text-black md:rounded-3xl"
+                                                className="flex h-full cursor-pointer touch-pan-y flex-col items-center rounded-2xl bg-[#eeeeee] p-4 text-[#000000] transition outline-none hover:bg-[#ededed] hover:text-black focus:bg-[#ededed] focus:text-black data-[state=open]:bg-[#ededed] data-[state=open]:text-black md:rounded-3xl"
                                             >
                                                 <div
                                                     className={`h-18 w-18 rounded-xl md:rounded-2xl lg:h-24 lg:w-24 xl:h-28 xl:w-28 2xl:h-40 2xl:w-40 ${
                                                         !item.private_alternative_id &&
-                                                        "bg-[#383838]"
+                                                        "bg-[#fff]"
                                                     }`}
                                                 >
                                                     {item.private_alternative_id && (
@@ -342,10 +342,10 @@ export default function App() {
                                                         </>
                                                     ) : (
                                                         <>
-                                                            <div className="h-5 w-5 pl-1 text-[#aeaeae]">
+                                                            <div className="h-5 w-5 pl-1 text-[#000000]">
                                                                 —
                                                             </div>
-                                                            <span className="text-xs text-[#aeaeae] transition duration-500 sm:text-sm">
+                                                            <span className="text-xs text-[#000000] transition duration-500 sm:text-sm">
                                                                 Remove
                                                             </span>
                                                         </>

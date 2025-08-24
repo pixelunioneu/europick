@@ -2,15 +2,13 @@
 @import "tw-animate-css";
 
 body {
-    background: #161616;
+    background: #fff;
 }
 
 .green-text {
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVR4nGMwvsIAAAJFAQj8cHnTAAAAAElFTkSuQmCC")
-        repeat;
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
+    color: blue;
 }
 
 @theme inline {
