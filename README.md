@@ -1,8 +1,8 @@
-# PrivacyPack.org
+# europick.eu
 
 Pick the mainstream apps you used before, show the privacy-respecting tools you’ve switched to, and share your privacy wins!
 
-Create your pack at [PrivacyPack.org](https://privacypack.org).
+Create your pack at [europick.eu](https://europick.eu).
 
 ![PrivacyPack Banner](public/og-image.png)
 

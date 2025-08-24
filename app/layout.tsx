@@ -14,11 +14,11 @@ export const metadata: Metadata = {
         title: "PrivacyPack",
         description:
             "Pick the mainstream apps you used before, show the privacy-respecting tools you have switched to, and share your privacy wins!",
-        url: "https://privacypack.org",
+        url: "https://europick.eu",
         siteName: "PrivacyPack",
         images: [
             {
-                url: "https://privacypack.org/og-image.png",
+                url: "https://europick.eu/og-image.png",
                 width: 1200,
                 height: 630,
                 alt: "PrivacyPack Preview",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
         title: "PrivacyPack",
         description:
             "Pick the mainstream apps you used before, show the privacy-respecting tools you have switched to, and share your privacy wins!",
-        images: ["https://privacypack.org/og-image.png"],
+        images: ["https://europick.eu/og-image.png"],
     },
 };
 

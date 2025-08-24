@@ -14,7 +14,7 @@ const Terms = () => {
                     EnteIO Technologies Private Limited (&quot;we&quot;,
                     &quot;our&quot;) and any person (&quot;User&quot;,
                     &quot;you&quot;, &quot;your&quot;) who accesses or uses our
-                    website <strong>privacypack.org</strong> (the
+                    website <strong>europick.eu</strong> (the
                     &quot;Site&quot;). This Agreement, along with our{" "}
                     <Link
                         href="/privacy"
@@ -35,7 +35,7 @@ const Terms = () => {
                     1. Description of Services
                 </h2>
                 <p>
-                    <strong>privacypack.org</strong> allows users to create and
+                    <strong>europick.eu</strong> allows users to create and
                     share cards showing the mainstream apps they previously used
                     and the privacy-respecting alternatives they have switched
                     to. The Site is for informational and educational purposes

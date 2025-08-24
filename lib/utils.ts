@@ -108,14 +108,14 @@ export async function handleShare() {
               navigator.canShare &&
               navigator.canShare({
                 text: "",
-                url: "https://privacypack.org",
+                url: "https://europick.eu",
                 files: [file],
               })
             ) {
               try {
                 await navigator.share({
                   text: "",
-                  url: "https://privacypack.org",
+                  url: "https://europick.eu",
                   files: [file],
                 });
                 console.log("Image shared successfully!");

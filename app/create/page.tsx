@@ -95,7 +95,7 @@ export default function App() {
                         href="/"
                         className="green-text pr-1 text-2xl font-bold tracking-[-0.09em]"
                     >
-                        PrivacyPack
+                        EuroPick
                     </Link>
                     <div className="flex flex-row items-center gap-8">
                         <a

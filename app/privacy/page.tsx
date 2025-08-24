@@ -10,7 +10,7 @@ const Privacy = () => {
                     We respect the privacy of our Users (&quot;User&quot;,
                     &quot;your&quot;, &quot;you&quot;). This Privacy Policy
                     (&quot;Policy&quot;) explains how we handle your information
-                    when you use our website, <strong>privacypack.org</strong>{" "}
+                    when you use our website, <strong>europick.eu</strong>{" "}
                     (the &quot;Site&quot;). Please read this Policy carefully to
                     understand our practices regarding your information and how
                     we treat it.
@@ -23,7 +23,7 @@ const Privacy = () => {
 
                 <h2 className="text-xl text-white">1. Introduction</h2>
                 <p>
-                    <strong>privacypack.org</strong> allows users to create and
+                    <strong>europick.eu</strong> allows users to create and
                     share cards showing the mainstream apps they previously used
                     and the privacy-respecting alternatives they have switched
                     to.
