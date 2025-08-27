@@ -10,7 +10,7 @@ function downloadBlob (blob: Blob) {
     try {
       const link = document.createElement("a");
       link.href = URL.createObjectURL(blob);
-      link.download = "privacypack.png";
+      link.download = "europack.png";
       link.click();
       URL.revokeObjectURL(link.href);
     } catch (error) {
