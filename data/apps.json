@@ -38,14 +38,19 @@
             "order": 3,
             "mainstream_apps": [
                 { "id": "google_search", "name": "Google Search" },
-                { "id": "bing", "name": "Bing" }
-            ],
-            "private_alternatives": [
+                { "id": "bing", "name": "Bing" },
+                { "id": "searxng", "name": "SearXNG" },
                 { "id": "kagi", "name": "Kagi" },
                 { "id": "brave_search", "name": "Brave Search" },
-                { "id": "duckduckgo", "name": "DuckDuckGo" },
-                { "id": "startpage", "name": "Startpage" },
-                { "id": "searxng", "name": "SearXNG" }
+                { "id": "duckduckgo", "name": "DuckDuckGo" }
+            ],
+            "private_alternatives": [
+                { "id": "qwant", "name": "Qwant" },
+                { "id": "Swisscows", "name": "Swisscows" },
+                { "id": "Ecosia", "name": "Ecosia" },
+                { "id": "seekr", "name": "seekr" },
+                { "id": "startpage", "name": "Startpage" }
+                
             ]
         },
         {
