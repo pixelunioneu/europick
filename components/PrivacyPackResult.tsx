@@ -125,7 +125,7 @@ const PrivacyPackResult: React.FC<PrivacyPackResultProps> = ({ pack }) => {
                                         className="h-auto w-full rounded-2xl"
                                     />
                                 </div>
-                                <div className="mt-3 max-w-[150px] text-center text-[28px] leading-tight tracking-tight text-[#aeaeae]">
+                                <div className="mt-3 max-w-[150px] text-center text-[28px] leading-tight tracking-tight text-[#003399]">
                                     {item.private_alternative_name}
                                 </div>
                             </div>
