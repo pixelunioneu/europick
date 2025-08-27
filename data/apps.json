@@ -12,6 +12,8 @@
             "private_alternatives": [
                 { "id": "proton_mail", "name": "Proton Mail" },
                 { "id": "tuta_mail", "name": "Tuta Mail" },
+                { "id": "startmail", "name": "StartMail" },
+                { "id": "mailbox", "name": "Mailbox.org" },
                 { "id": "posteo", "name": "Posteo" }
             ]
         },
@@ -22,13 +24,13 @@
                 { "id": "google_photos", "name": "Google Photos" },
                 { "id": "apple_photos", "name": "Apple Photos" },
                 { "id": "amazon_photos", "name": "Amazon Photos" },
+                { "id": "ente_photos", "name": "Ente Photos" },
                 { "id": "dropbox", "name": "Dropbox" }
             ],
             "private_alternatives": [
-                { "id": "ente_photos", "name": "Ente Photos" },
-                { "id": "proton_drive", "name": "Proton Drive" },
-                { "id": "immich", "name": "Immich" },
-                { "id": "PixelUnion", "name": "PixelUnion" }
+                { "id": "PixelUnion", "name": "PixelUnion" },
+                { "id": "Zeitkapsl", "name": "Zeitkapsl" }
+                
             ]
         },
         {
