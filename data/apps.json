@@ -46,8 +46,8 @@
             ],
             "private_alternatives": [
                 { "id": "qwant", "name": "Qwant" },
-                { "id": "Swisscows", "name": "Swisscows" },
-                { "id": "Ecosia", "name": "Ecosia" },
+                { "id": "swisscows", "name": "Swisscows" },
+                { "id": "ecosia", "name": "Ecosia" },
                 { "id": "seekr", "name": "seekr" },
                 { "id": "startpage", "name": "Startpage" }
                 
