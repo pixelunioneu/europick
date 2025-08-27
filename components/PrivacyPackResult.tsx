@@ -111,7 +111,7 @@ const PrivacyPackResult: React.FC<PrivacyPackResultProps> = ({ pack }) => {
                             <div className="-mt-20">
                                 <ArrowRight
                                     size={42}
-                                    className="text-[#e6e6e6]"
+                                    className="text-[#003399]"
                                 />
                             </div>
                             <div className="flex h-full flex-col items-center transition outline-none">
