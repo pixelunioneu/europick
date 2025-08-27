@@ -109,8 +109,8 @@
             "private_alternatives": [
                 { "id": "nextcloud", "name": "Nextcloud" },
                 { "id": "proton_drive", "name": "Proton Drive" },
-                { "id": "filen", "name": "Filen" },
-                { "id": "fileverse", "name": "Fileverse" }
+                { "id": "filen", "name": "Filen" }
+                
             ]
         },
         {
@@ -119,12 +119,13 @@
             "mainstream_apps": [
                 { "id": "google_passwords", "name": "Google Passwords" },
                 { "id": "icloud_keychain", "name": "iCloud Keychain" },
+                { "id": "bitwarden", "name": "Bitwarden" },
+                { "id": "1password", "name": "1Password" },
                 { "id": "lastpass", "name": "LastPass" }
             ],
             "private_alternatives": [
-                { "id": "bitwarden", "name": "Bitwarden" },
-                { "id": "1password", "name": "1Password" },
                 { "id": "proton_pass", "name": "Proton Pass" },
+                { "id": "passbolt", "name": "Passbolt" },
                 { "id": "keepassxc", "name": "KeePassXC" }
             ]
         },
@@ -135,12 +136,11 @@
                 { "id": "google_auth", "name": "Google Auth" },
                 { "id": "microsoft_auth", "name": "Microsoft Auth" },
                 { "id": "authy", "name": "Authy" }
+                { "id": "1password", "name": "1Password" },
             ],
             "private_alternatives": [
-                { "id": "ente_auth", "name": "Ente Auth" },
-                { "id": "aegis_auth", "name": "Aegis Auth" },
                 { "id": "proton_auth", "name": "Proton Auth" },
-                { "id": "bitwarden_auth", "name": "Bitwarden Auth" }
+                
             ]
         },
         {
@@ -164,10 +164,8 @@
                 { "id": "app_store", "name": "App Store" }
             ],
             "private_alternatives": [
-                { "id": "accrescent", "name": "Accrescent" },
-                { "id": "f_droid", "name": "F-Droid" },
-                { "id": "aurora_store", "name": "Aurora Store" },
-                { "id": "obtainium", "name": "Obtainium" }
+
+                { "id": "f_droid", "name": "F-Droid" }
             ]
         },
         {
@@ -175,14 +173,16 @@
             "order": 12,
             "mainstream_apps": [
                 { "id": "no_vpn", "name": "No VPN" },
-                { "id": "nordvpn", "name": "NordVPN" },
-                { "id": "expressvpn", "name": "ExpressVPN" },
-                { "id": "surfshark", "name": "Surfshark" }
+                
+                { "id": "expressvpn", "name": "ExpressVPN" }
+                
             ],
             "private_alternatives": [
                 { "id": "mullvad_vpn", "name": "Mullvad VPN" },
+                { "id": "nordvpn", "name": "NordVPN" },
+                { "id": "surfshark", "name": "Surfshark" },
                 { "id": "proton_vpn", "name": "Proton VPN" },
-                { "id": "obscura_vpn", "name": "Obscura VPN" },
+        
                 { "id": "ivpn", "name": "IVPN" }
             ]
         }
