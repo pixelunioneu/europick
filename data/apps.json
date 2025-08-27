@@ -30,7 +30,6 @@
             "private_alternatives": [
                 { "id": "PixelUnion", "name": "PixelUnion" },
                 { "id": "Zeitkapsl", "name": "Zeitkapsl" }
-                
             ]
         },
         {
@@ -50,26 +49,24 @@
                 { "id": "ecosia", "name": "Ecosia" },
                 { "id": "seekr", "name": "seekr" },
                 { "id": "startpage", "name": "Startpage" }
-                
             ]
         },
-            {
-              "name": "Browser",
-              "order": 4,
-              "mainstream_apps": [
+        {
+            "name": "Browser",
+            "order": 4,
+            "mainstream_apps": [
                 { "id": "chrome", "name": "Google Chrome" },
                 { "id": "safari", "name": "Apple Safari" },
                 { "id": "edge", "name": "Microsoft Edge" },
                 { "id": "firefox", "name": "Mozilla Firefox" },
                 { "id": "opera", "name": "Opera" },
                 { "id": "brave", "name": "Brave" }
-              ],
-              "private_alternatives": [
+            ],
+            "private_alternatives": [
                 { "id": "vivaldi", "name": "Vivaldi" },
-                { "id": "mullvad_browser", "name": "Mullvad Browser" },
-
-             ]
-            },
+                { "id": "mullvad_browser", "name": "Mullvad Browser" }
+            ]
+        },
         {
             "name": "Messaging",
             "order": 5,
@@ -110,7 +107,6 @@
                 { "id": "nextcloud", "name": "Nextcloud" },
                 { "id": "proton_drive", "name": "Proton Drive" },
                 { "id": "filen", "name": "Filen" }
-                
             ]
         },
         {
@@ -135,12 +131,11 @@
             "mainstream_apps": [
                 { "id": "google_auth", "name": "Google Auth" },
                 { "id": "microsoft_auth", "name": "Microsoft Auth" },
-                { "id": "authy", "name": "Authy" }
-                { "id": "1password", "name": "1Password" },
+                { "id": "authy", "name": "Authy" },
+                { "id": "1password", "name": "1Password" }
             ],
             "private_alternatives": [
-                { "id": "proton_auth", "name": "Proton Auth" },
-                
+                { "id": "proton_auth", "name": "Proton Auth" }
             ]
         },
         {
@@ -164,7 +159,6 @@
                 { "id": "app_store", "name": "App Store" }
             ],
             "private_alternatives": [
-
                 { "id": "f_droid", "name": "F-Droid" }
             ]
         },
@@ -173,16 +167,13 @@
             "order": 12,
             "mainstream_apps": [
                 { "id": "no_vpn", "name": "No VPN" },
-                
                 { "id": "expressvpn", "name": "ExpressVPN" }
-                
             ],
             "private_alternatives": [
                 { "id": "mullvad_vpn", "name": "Mullvad VPN" },
                 { "id": "nordvpn", "name": "NordVPN" },
                 { "id": "surfshark", "name": "Surfshark" },
                 { "id": "proton_vpn", "name": "Proton VPN" },
-        
                 { "id": "ivpn", "name": "IVPN" }
             ]
         }
