@@ -53,30 +53,23 @@
                 
             ]
         },
-        {
-            "name": "Browser",
-            "order": 4,
-            "mainstream_apps": [
-                { "id": "chrome", "name": "Chrome" },
-                { "id": "safari", "name": "Safari" },
-                { "id": "edge", "name": "Edge" },
-                { "id": "opera", "name": "Opera" }
-            ],
-            "private_alternatives": [
-                { "id": "zen_browser", "name": "Zen Browser" },
-                { "id": "vanadium", "name": "Vanadium" },
-                { "id": "brave", "name": "Brave" },
-                { "id": "cromite", "name": "Cromite" },
-                { "id": "firefox", "name": "Firefox" },
-                { "id": "floorp", "name": "Floorp" },
-                { "id": "tor", "name": "Tor" },
-                { "id": "trivalent", "name": "Trivalent" },
+            {
+              "name": "Browser",
+              "order": 4,
+              "mainstream_apps": [
+                { "id": "chrome", "name": "Google Chrome" },
+                { "id": "safari", "name": "Apple Safari" },
+                { "id": "edge", "name": "Microsoft Edge" },
+                { "id": "firefox", "name": "Mozilla Firefox" },
+                { "id": "opera", "name": "Opera" },
+                { "id": "brave", "name": "Brave" }
+              ],
+              "private_alternatives": [
                 { "id": "vivaldi", "name": "Vivaldi" },
-                { "id": "librewolf", "name": "LibreWolf" },
                 { "id": "mullvad_browser", "name": "Mullvad Browser" },
-                { "id": "orion", "name": "Orion" }
-            ]
-        },
+
+             ]
+            },
         {
             "name": "Messaging",
             "order": 5,
@@ -87,8 +80,6 @@
                 { "id": "imessage", "name": "iMessage" }
             ],
             "private_alternatives": [
-                { "id": "signal", "name": "Signal" },
-                { "id": "simplex_chat", "name": "SimpleX Chat" },
                 { "id": "session", "name": "Session" },
                 { "id": "threema", "name": "Threema" }
             ]
@@ -103,12 +94,7 @@
                 { "id": "notion", "name": "Notion" }
             ],
             "private_alternatives": [
-                { "id": "standard_notes", "name": "Standard Notes" },
-                { "id": "memos", "name": "Memos" },
-                { "id": "notesnook", "name": "Notesnook" },
-                { "id": "obsidian", "name": "Obsidian" },
-                { "id": "logseq", "name": "Logseq" },
-                { "id": "anytype", "name": "Anytype" }
+                { "id": "capacities", "name": "Capacities" }
             ]
         },
         {
