@@ -93,10 +93,10 @@ const Terms = () => {
                 <p>
                     You can reach us by email at:{" "}
                     <a
-                        href="mailto:info@pixelunion.eu"
+                        href="mailto:support@pixelunion.eu"
                         className="underline underline-offset-2"
                     >
-                        info@pixelunion.eu
+                        support@pixelunion.eu
                     </a>
                 </p>
                 <p>
