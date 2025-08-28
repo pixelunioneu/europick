@@ -7,7 +7,7 @@ const Terms = () => {
                 <h1 className="mb-8 text-3xl text-white">
                     TERMS AND CONDITIONS
                 </h1>
-                <p>Last Updated: August 23, 2025</p>
+                <p>Last Updated: August 28, 2025</p>
                 <p>
                     These Terms and Conditions (&quot;Agreement&quot; or &quot;Terms&quot;) are a legally binding agreement between the operator of this website (&quot;we&quot;, &quot;our&quot;) and any person (&quot;User&quot;, &quot;you&quot;, &quot;your&quot;) who accesses or uses our website <strong>europick.eu</strong> (the &quot;Site&quot;). This Agreement, along with our{" "}
                     <Link
@@ -93,14 +93,14 @@ const Terms = () => {
                 <p>
                     You can reach us by email at:{" "}
                     <a
-                        href="mailto:privacy@europick.eu"
+                        href="mailto:info@pixelunion.eu"
                         className="underline underline-offset-2"
                     >
-                        privacy@europick.eu
+                        info@pixelunion.eu
                     </a>
                 </p>
                 <p>
-                    Mailing address: [Your Company or Site Name], [Your Address], [Country].
+
                 </p>
 
                 <Link href="/" className="mt-8 underline underline-offset-2">
