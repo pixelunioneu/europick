@@ -14,7 +14,8 @@
                 { "id": "tuta_mail", "name": "Tuta Mail" },
                 { "id": "startmail", "name": "StartMail" },
                 { "id": "mailbox", "name": "Mailbox.org" },
-                { "id": "posteo", "name": "Posteo" }
+                { "id": "posteo", "name": "Posteo" },
+                { "id": "hosting_nl", "name": "Hosting.nl" }
             ]
         },
         {
