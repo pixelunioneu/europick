@@ -48,7 +48,7 @@ export default function Home() {
                         width={0}
                         height={0}
                         sizes="100vw"
-                        className="h-auto w-full"
+                        className="h-auto w-full rounded-2xl border-4 border-blue-600"
                         priority
                         quality={100}
                     />
