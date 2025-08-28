@@ -4,7 +4,7 @@ Pick the mainstream apps you used before, show the privacy-respecting tools youâ
 
 Create your pack at [europick.eu](https://europick.eu).
 
-![PrivacyPack Banner](public/og-image.png)
+![EuroPick Banner](public/og-image.png)
 
 ## Development Setup
 
@@ -51,4 +51,4 @@ When adding a new app, please ensure the logo meets these specifications:
 
 ## License
 
-PrivacyPack is distributed under the [MIT license](/LICENSE).
+EuroPick is distributed under the [MIT license](/LICENSE).
