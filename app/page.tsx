@@ -35,7 +35,7 @@ export default function Home() {
                             type="button"
                             className="w-full rounded-2xl bg-blue-600 px-10 py-4 text-base font-semibold text-white transition-all duration-150 hover:bg-blue-700 shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 cursor-pointer"
                         >
-                            CREATE YOUR PACK
+                            CREATE YOUR PICK
                         </button>
                     </Link>
                 </div>
