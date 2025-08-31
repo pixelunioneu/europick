@@ -43,6 +43,9 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <head>
+                <script src="/pulse.js" async></script>
+            </head>
             <body className={`${jetBrainsMono.className} antialiased`}>
                 {children}
             </body>

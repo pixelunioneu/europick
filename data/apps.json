@@ -136,19 +136,6 @@
             ]
         },
         {
-            "name": "2FA",
-            "order": 9,
-            "mainstream_apps": [
-                { "id": "google_auth", "name": "Google Auth" },
-                { "id": "microsoft_auth", "name": "Microsoft Auth" },
-                { "id": "authy", "name": "Authy" },
-                { "id": "1password", "name": "1Password" }
-            ],
-            "private_alternatives": [
-                { "id": "proton_auth", "name": "Proton Auth" }
-            ]
-        },
-        {
             "name": "Calendar",
             "order": 10,
             "mainstream_apps": [
