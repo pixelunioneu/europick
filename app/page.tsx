@@ -21,7 +21,7 @@ export default function Home() {
                         />
                     </div>
                     <h1 className="green-text m-4 xs:text-6xl mt-6 ml-2 pr-2 text-5xl font-bold tracking-[-0.09em] md:mt-4 md:text-8xl">
-                        EuroPick
+                        EuroPick.eu
                     </h1>
                     <p className="xs:text-lg mt-4 flex flex-col text-center text-base font-semibold tracking-tighter text-black md:text-2xl">
                         YOUR EUROPEAN ALTERNATIVES, IN ONE CARD
