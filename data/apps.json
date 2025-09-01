@@ -88,18 +88,21 @@
                 { "id": "matrix", "name": "Matrix" }
             ]
         },
+
         {
-            "name": "Notes",
-            "order": 15,
+            "name": "Maps",
+            "order": 6,
             "mainstream_apps": [
-                { "id": "google_keep", "name": "Google Keep" },
-                { "id": "apple_notes", "name": "Apple Notes" },
-                { "id": "evernote", "name": "Evernote" },
-                { "id": "notion", "name": "Notion" }
+                { "id": "google_maps", "name": "Google Maps" },
+                { "id": "apple_maps", "name": "Apple Maps" }
             ],
             "private_alternatives": [
-                { "id": "capacities", "name": "Capacities" },
-                { "id": "craft", "name": "Craft" }
+                { "id": "open_street_map", "name": "Open Street Map" },
+                { "id": "organic_maps", "name": "Organic Maps" },
+                { "id": "mapy", "name": "Mapy.cz" },
+                { "id": "herewego", "name": "HERE WeGo" },
+                { "id": "tomtom", "name": "TomTom" },
+                { "id": "magic_earth", "name": "Magic Earth" }
             ]
         },
         {
@@ -121,19 +124,22 @@
             ]
         },
         {
-            "name": "Passwords",
-            "order": 13,
+            "name": "AI Assistant",
+            "order": 8,
             "mainstream_apps": [
-                { "id": "google_passwords", "name": "Google Passwords" },
-                { "id": "icloud_keychain", "name": "iCloud Keychain" },
-                { "id": "bitwarden", "name": "Bitwarden" },
-                { "id": "1password", "name": "1Password" },
-                { "id": "lastpass", "name": "LastPass" }
+                { "id": "chatgpt", "name": "ChatGPT" },
+                { "id": "grok", "name": "Grok" },
+                { "id": "claude", "name": "Claude" },
+                { "id": "google_gemini", "name": "Google Gemini" },
+                { "id": "microsoft_copilot", "name": "Microsoft Copilot" },
+                { "id": "deepseek", "name": "DeepSeek" },
+                { "id": "meta_ai", "name": "Meta AI" },
+                { "id": "perplexity", "name": "Perplexity" }
             ],
             "private_alternatives": [
-                { "id": "proton_pass", "name": "Proton Pass" },
-                { "id": "passbolt", "name": "Passbolt" },
-                { "id": "keepassxc", "name": "KeePassXC" }
+                { "id": "ollama", "name": "Ollama" },
+                { "id": "mistral", "name": "Le Chat" },
+                { "id": "aleph-alpha", "name": "Aleph Alpha" }
             ]
         },
         {
@@ -176,25 +182,24 @@
                 { "id": "ivpn", "name": "IVPN" }
             ]
         },
+
         {
-            "name": "AI Assistant",
-            "order": 8,
+            "name": "Passwords",
+            "order": 13,
             "mainstream_apps": [
-                { "id": "chatgpt", "name": "ChatGPT" },
-                { "id": "grok", "name": "Grok" },
-                { "id": "claude", "name": "Claude" },
-                { "id": "google_gemini", "name": "Google Gemini" },
-                { "id": "microsoft_copilot", "name": "Microsoft Copilot" },
-                { "id": "deepseek", "name": "DeepSeek" },
-                { "id": "meta_ai", "name": "Meta AI" },
-                { "id": "perplexity", "name": "Perplexity" }
+                { "id": "google_passwords", "name": "Google Passwords" },
+                { "id": "icloud_keychain", "name": "iCloud Keychain" },
+                { "id": "bitwarden", "name": "Bitwarden" },
+                { "id": "1password", "name": "1Password" },
+                { "id": "lastpass", "name": "LastPass" }
             ],
             "private_alternatives": [
-                { "id": "ollama", "name": "Ollama" },
-                { "id": "mistral", "name": "Le Chat" },
-                { "id": "aleph-alpha", "name": "Aleph Alpha" }
+                { "id": "proton_pass", "name": "Proton Pass" },
+                { "id": "passbolt", "name": "Passbolt" },
+                { "id": "keepassxc", "name": "KeePassXC" }
             ]
         },
+
         {
             "name": "Smart Home",
             "order": 14,
@@ -212,21 +217,20 @@
             ]
         },
         {
-            "name": "Maps",
-            "order": 6,
+            "name": "Notes",
+            "order": 15,
             "mainstream_apps": [
-                { "id": "google_maps", "name": "Google Maps" },
-                { "id": "apple_maps", "name": "Apple Maps" }
+                { "id": "google_keep", "name": "Google Keep" },
+                { "id": "apple_notes", "name": "Apple Notes" },
+                { "id": "evernote", "name": "Evernote" },
+                { "id": "notion", "name": "Notion" }
             ],
             "private_alternatives": [
-                { "id": "open_street_map", "name": "Open Street Map" },
-                { "id": "organic_maps", "name": "Organic Maps" },
-                { "id": "mapy", "name": "Mapy.cz" },
-                { "id": "herewego", "name": "HERE WeGo" },
-                { "id": "tomtom", "name": "TomTom" },
-                { "id": "magic_earth", "name": "Magic Earth" }
+                { "id": "capacities", "name": "Capacities" },
+                { "id": "craft", "name": "Craft" }
             ]
         },
+
         {
             "name": "Community",
             "order": 16,
