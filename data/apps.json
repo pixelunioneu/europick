@@ -90,7 +90,7 @@
         },
         {
             "name": "Notes",
-            "order": 6,
+            "order": 15,
             "mainstream_apps": [
                 { "id": "google_keep", "name": "Google Keep" },
                 { "id": "apple_notes", "name": "Apple Notes" },
@@ -122,7 +122,7 @@
         },
         {
             "name": "Passwords",
-            "order": 8,
+            "order": 13,
             "mainstream_apps": [
                 { "id": "google_passwords", "name": "Google Passwords" },
                 { "id": "icloud_keychain", "name": "iCloud Keychain" },
@@ -178,7 +178,7 @@
         },
         {
             "name": "AI Assistant",
-            "order": 13,
+            "order": 8,
             "mainstream_apps": [
                 { "id": "chatgpt", "name": "ChatGPT" },
                 { "id": "grok", "name": "Grok" },
@@ -213,7 +213,7 @@
         },
         {
             "name": "Maps",
-            "order": 15,
+            "order": 6,
             "mainstream_apps": [
                 { "id": "google_maps", "name": "Google Maps" },
                 { "id": "apple_maps", "name": "Apple Maps" }
