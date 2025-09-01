@@ -15,6 +15,7 @@
                 { "id": "startmail", "name": "StartMail" },
                 { "id": "mailbox", "name": "Mailbox.org" },
                 { "id": "posteo", "name": "Posteo" },
+                { "id": "sapo", "name": "SAPO" },
                 { "id": "hosting_nl", "name": "Hosting.nl" }
             ]
         },
@@ -171,6 +172,7 @@
                 { "id": "nordvpn", "name": "NordVPN" },
                 { "id": "surfshark", "name": "Surfshark" },
                 { "id": "proton_vpn", "name": "Proton VPN" },
+                { "id": "cyberghost", "name": "CyberGhost" },
                 { "id": "ivpn", "name": "IVPN" }
             ]
         },
@@ -219,6 +221,9 @@
             "private_alternatives": [
                 { "id": "open_street_map", "name": "Open Street Map" },
                 { "id": "organic_maps", "name": "Organic Maps" },
+                { "id": "mapy", "name": "Mapy.cz" },
+                { "id": "herewego", "name": "HERE WeGo" },
+                { "id": "tomtom", "name": "TomTom" },
                 { "id": "magic_earth", "name": "Magic Earth" }
             ]
         },
