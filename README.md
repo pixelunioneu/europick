@@ -18,8 +18,8 @@ Create your pack at [europick.eu](https://europick.eu).
 1. Clone the repository
 
 ```bash
-git clone https://github.com/ente-io/privacypack.git
-cd privacypack
+git clone https://github.com/pixelunioneu/europick.git
+cd europick
 ```
 
 2. Install dependencies
