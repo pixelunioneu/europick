@@ -69,6 +69,7 @@
             "private_alternatives": [
                 { "id": "vivaldi", "name": "Vivaldi" },
                 { "id": "mullvad_browser", "name": "Mullvad Browser" },
+                { "id": "firefox", "name": "Firefox (US)" },
                 { "id": "ecosia", "name": "Ecosia" }
             ]
         },
@@ -82,7 +83,7 @@
                 { "id": "imessage", "name": "iMessage" }
             ],
             "private_alternatives": [
-                { "id": "signal", "name": "Signal" },
+                { "id": "signal", "name": "Signal (US)" },
                 { "id": "session", "name": "Session" },
                 { "id": "threema", "name": "Threema" },
                 { "id": "matrix", "name": "Matrix" }
