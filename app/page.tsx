@@ -20,6 +20,8 @@ export default function Home() {
                             priority
                         />
                     </div>
+                            {/* Add margin-bottom to logo container for mobile */}
+                            <div className="block md:hidden mb-6"></div>
                     <h1 className="green-text m-4 xs:text-6xl mt-6 ml-2 pr-2 text-5xl font-bold tracking-[-0.09em] md:mt-4 md:text-8xl">
                         EuroPick.eu
                     </h1>
