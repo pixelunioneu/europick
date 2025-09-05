@@ -96,7 +96,7 @@ const PrivacyPackResult: React.FC<PrivacyPackResultProps> = ({ pack }) => {
                             <div className="flex h-full flex-col items-center transition outline-none">
                                 <div className="h-[150px] w-[150px]">
                                     <Image
-                                        src={`/app-logos/${item.mainstream_app_id}.jpg`}
+                                        src={`/app-logos/${item.mainstream_app_id && item.mainstream_app_id.startsWith('custom-') ? 'custom' : item.mainstream_app_id}.jpg`}
                                         alt={item.mainstream_app_name}
                                         width={0}
                                         height={0}
@@ -117,7 +117,7 @@ const PrivacyPackResult: React.FC<PrivacyPackResultProps> = ({ pack }) => {
                             <div className="flex h-full flex-col items-center transition outline-none">
                                 <div className="h-[150px] w-[150px]">
                                     <Image
-                                        src={`/app-logos/${item.private_alternative_id}.jpg`}
+                                        src={`/app-logos/${item.private_alternative_id && item.private_alternative_id.startsWith('custom-') ? 'custom' : item.private_alternative_id}.jpg`}
                                         alt={item.private_alternative_name}
                                         width={0}
                                         height={0}
