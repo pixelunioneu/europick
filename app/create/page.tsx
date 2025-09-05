@@ -37,6 +37,11 @@ export default function App() {
     const [openKey, setOpenKey] = useState<string | null>(null);
     const touchKeyRef = useRef<string | null>(null);
 
+    // State for custom input per category (mainstream/private)
+    const [customInputs, setCustomInputs] = useState<{
+        [key: string]: string;
+    }>({});
+
     const getTouchTriggerHandlers = (key: string) => ({
         onPointerDown: (e: React.PointerEvent<HTMLDivElement>) => {
             if (e.pointerType === "touch") {
@@ -85,6 +90,24 @@ export default function App() {
                     : item,
             ),
         );
+    };
+
+    // Helper to handle custom input change
+    const handleCustomInputChange = (key: string, value: string) => {
+        setCustomInputs((prev) => ({ ...prev, [key]: value }));
+    };
+
+    // Helper to handle custom input submit
+    const handleCustomInputSubmit = (categoryName: string, type: "mainstream" | "private", key: string) => {
+        const value = customInputs[key]?.trim();
+        if (!value) return;
+        handleSelectApp(
+            categoryName,
+            { id: `custom-${value.replace(/\s+/g, "-").toLowerCase()}`, name: value },
+            type
+        );
+        setCustomInputs((prev) => ({ ...prev, [key]: "" }));
+        setOpenKey(null);
     };
 
     return (
@@ -166,10 +189,8 @@ export default function App() {
                                             >
                                                 <div className="h-18 w-18 lg:h-24 lg:w-24 xl:h-28 xl:w-28 2xl:h-40 2xl:w-40">
                                                     <Image
-                                                        src={`/app-logos/${item.mainstream_app_id}.jpg`}
-                                                        alt={
-                                                            item.mainstream_app_name
-                                                        }
+                                                        src={`/app-logos/${item.mainstream_app_id.startsWith('custom-') ? 'custom' : item.mainstream_app_id}.jpg`}
+                                                        alt={item.mainstream_app_name}
                                                         width={0}
                                                         height={0}
                                                         sizes="100vw"
@@ -196,9 +217,7 @@ export default function App() {
                                                 )
                                                 .map((mainstream_app) => (
                                                     <DropdownMenuItem
-                                                        key={
-                                                            mainstream_app.name
-                                                        }
+                                                        key={mainstream_app.name}
                                                         onClick={() =>
                                                             handleSelectApp(
                                                                 item.category,
@@ -211,9 +230,7 @@ export default function App() {
                                                         <div className="h-5 w-5">
                                                             <Image
                                                                 src={`/app-logos/${mainstream_app.id}.jpg`}
-                                                                alt={
-                                                                    mainstream_app.name
-                                                                }
+                                                                alt={mainstream_app.name}
                                                                 width={0}
                                                                 height={0}
                                                                 sizes="100vw"
@@ -221,12 +238,31 @@ export default function App() {
                                                             />
                                                         </div>
                                                         <span className="text-xs sm:text-sm">
-                                                            {
-                                                                mainstream_app.name
-                                                            }
+                                                            {mainstream_app.name}
                                                         </span>
                                                     </DropdownMenuItem>
                                                 ))}
+                                            {/* Custom input for mainstream */}
+                                            <div className="flex flex-col gap-2 p-2 border-t mt-2">
+                                                <input
+                                                    type="text"
+                                                    className="rounded border px-2 py-1 text-xs focus:outline-none focus:ring-2 focus:ring-blue-400"
+                                                    placeholder="Enter your own..."
+                                                    value={customInputs[mainKey] || ""}
+                                                    onChange={e => handleCustomInputChange(mainKey, e.target.value)}
+                                                    onKeyDown={e => {
+                                                        if (e.key === "Enter") {
+                                                            handleCustomInputSubmit(item.category, "mainstream", mainKey);
+                                                        }
+                                                    }}
+                                                />
+                                                <button
+                                                    className="rounded bg-blue-500 px-2 py-1 text-xs text-white hover:bg-blue-600"
+                                                    onClick={() => handleCustomInputSubmit(item.category, "mainstream", mainKey)}
+                                                >
+                                                    Add custom
+                                                </button>
+                                            </div>
                                         </DropdownMenuContent>
                                     </DropdownMenu>
 
@@ -253,10 +289,8 @@ export default function App() {
                                                 >
                                                     {item.private_alternative_id && (
                                                         <Image
-                                                            src={`/app-logos/${item.private_alternative_id}.jpg`}
-                                                            alt={
-                                                                item.private_alternative_name
-                                                            }
+                                                            src={`/app-logos/${item.private_alternative_id.startsWith('custom-') ? 'custom' : item.private_alternative_id}.jpg`}
+                                                            alt={item.private_alternative_name}
                                                             width={0}
                                                             height={0}
                                                             sizes="100vw"
@@ -284,9 +318,7 @@ export default function App() {
                                                 )
                                                 .map((private_alternative) => (
                                                     <DropdownMenuItem
-                                                        key={
-                                                            private_alternative.id
-                                                        }
+                                                        key={private_alternative.id}
                                                         onClick={() =>
                                                             handleSelectApp(
                                                                 item.category,
@@ -300,9 +332,7 @@ export default function App() {
                                                             <div className="h-5 w-5">
                                                                 <Image
                                                                     src={`/app-logos/${private_alternative.id}.jpg`}
-                                                                    alt={
-                                                                        private_alternative.name
-                                                                    }
+                                                                    alt={private_alternative.name}
                                                                     width={0}
                                                                     height={0}
                                                                     sizes="100vw"
@@ -310,13 +340,32 @@ export default function App() {
                                                                 />
                                                             </div>
                                                             <span className="text-xs sm:text-sm">
-                                                                {
-                                                                    private_alternative.name
-                                                                }
+                                                                {private_alternative.name}
                                                             </span>
                                                         </div>
                                                     </DropdownMenuItem>
                                                 ))}
+                                            {/* Custom input for private alternative */}
+                                            <div className="flex flex-col gap-2 p-2 border-t mt-2">
+                                                <input
+                                                    type="text"
+                                                    className="rounded border px-2 py-1 text-xs focus:outline-none focus:ring-2 focus:ring-blue-400"
+                                                    placeholder="Enter your own..."
+                                                    value={customInputs[altKey] || ""}
+                                                    onChange={e => handleCustomInputChange(altKey, e.target.value)}
+                                                    onKeyDown={e => {
+                                                        if (e.key === "Enter") {
+                                                            handleCustomInputSubmit(item.category, "private", altKey);
+                                                        }
+                                                    }}
+                                                />
+                                                <button
+                                                    className="rounded bg-blue-500 px-2 py-1 text-xs text-white hover:bg-blue-600"
+                                                    onClick={() => handleCustomInputSubmit(item.category, "private", altKey)}
+                                                >
+                                                    Add custom
+                                                </button>
+                                            </div>
                                             <DropdownMenuItem
                                                 onClick={() => {
                                                     handleSelectApp(
