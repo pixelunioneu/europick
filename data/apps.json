@@ -122,7 +122,8 @@
                 { "id": "koofr", "name": "Koofr" },
                 { "id": "crypt", "name": "Crypt" },
                 { "id": "hetzner", "name": "Hetzner" },
-                { "id": "filen", "name": "Filen" }
+                { "id": "filen", "name": "Filen" },
+                { "id": "jotta_cloud", "name": "JottaCloud" }
             ]
         },
         {
