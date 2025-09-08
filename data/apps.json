@@ -33,7 +33,8 @@
                 { "id": "Zeitkapsl", "name": "Zeitkapsl" },
                 { "id": "immich", "name": "Immich" },
                 { "id": "nextcloud_memories", "name": "Nextcloud Memories" },
-                { "id": "PixelUnion", "name": "PixelUnion" }
+                { "id": "PixelUnion", "name": "PixelUnion" },
+                { "id": "photoprism", "name": "PhotoPrism" }
             ]
         },
         {
