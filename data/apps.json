@@ -16,7 +16,8 @@
                 { "id": "mailbox", "name": "Mailbox.org" },
                 { "id": "posteo", "name": "Posteo" },
                 { "id": "sapo", "name": "SAPO" },
-                { "id": "hosting_nl", "name": "Hosting.nl" }
+                { "id": "hosting_nl", "name": "Hosting.nl" },
+                { "id": "inlinestyle", "name": "Inlinestyle Mail" }
             ]
         },
         {
@@ -34,7 +35,8 @@
                 { "id": "immich", "name": "Immich" },
                 { "id": "nextcloud_memories", "name": "Nextcloud Memories" },
                 { "id": "PixelUnion", "name": "PixelUnion" },
-                { "id": "photoprism", "name": "PhotoPrism" }
+                { "id": "photoprism", "name": "PhotoPrism" },
+                { "id": "inlinestyle", "name": "Inlinestyle Photos" }
             ]
         },
         {
@@ -124,7 +126,8 @@
                 { "id": "crypt", "name": "Crypt" },
                 { "id": "hetzner", "name": "Hetzner" },
                 { "id": "filen", "name": "Filen" },
-                { "id": "jotta_cloud", "name": "JottaCloud" }
+                { "id": "jotta_cloud", "name": "JottaCloud" },
+                { "id": "inlinestyle", "name": "Inlinestyle Docs" }
             ]
         },
         {
@@ -231,7 +234,8 @@
             ],
             "private_alternatives": [
                 { "id": "capacities", "name": "Capacities" },
-                { "id": "craft", "name": "Craft" }
+                { "id": "craft", "name": "Craft" },
+                { "id": "inlinestyle", "name": "Inlinestyle Notes" }
             ]
         },
 
