@@ -203,7 +203,8 @@
             "private_alternatives": [
                 { "id": "proton_pass", "name": "Proton Pass" },
                 { "id": "passbolt", "name": "Passbolt" },
-                { "id": "keepassxc", "name": "KeePassXC" }
+                { "id": "keepassxc", "name": "KeePassXC" },
+                { "id": "aliasvault", "name": "AliasVault" }
             ]
         },
 
