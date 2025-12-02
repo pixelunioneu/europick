@@ -73,6 +73,8 @@
                 { "id": "vivaldi", "name": "Vivaldi" },
                 { "id": "mullvad_browser", "name": "Mullvad Browser" },
                 { "id": "firefox", "name": "Firefox (US)" },
+				{ "id": "librewolf", "name": "Librewolf" },
+				{ "id": "waterfox", "name": "Waterfox" },
                 { "id": "ecosia", "name": "Ecosia" }
             ]
         },
@@ -147,6 +149,7 @@
                 { "id": "ollama", "name": "Ollama" },
                 { "id": "mistral", "name": "Le Chat" },
                 { "id": "aleph-alpha", "name": "Aleph Alpha" }
+				{ "id": "lumo", "name": "Proton Lumo" }
             ]
         },
         {
@@ -171,6 +174,9 @@
             ],
             "private_alternatives": [
                 { "id": "f_droid", "name": "F-Droid" }
+				{ "id": "droidify", "name": "Droidify" }
+				{ "id": "applounge", "name": "App Lounge" }
+				{ "id": "aurora", "name": "Aurora" }
             ]
         },
         {
@@ -249,6 +255,7 @@
             ],
             "private_alternatives": [
                 { "id": "matrix", "name": "Matrix" }
+				{ "id": "revolt", "name": "Revolt" }
             ]
         }
     ]
